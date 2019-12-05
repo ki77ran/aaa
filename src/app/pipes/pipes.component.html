@@ -1,0 +1,55 @@
+<!-- <--string--> 
+ <h1>String</h1>
+ {{name}} <br><br>
+ {{name |uppercase}} <br><br>
+ {{name |lowercase}} <br><br>
+ {{name |titlecase}} <br><br>
+
+ <!--<--Currency and Number-->
+    <h1>Currency and Number</h1>
+    {{10.5 |number:'1.3'}} <br><br>
+    {{10.11 |number:'4.2'}} <br><br>
+    {{150 | currency:'USD':true}} <br><br>
+    {{150 | currency:'EUR':true}} <br><br>
+    {{150 | currency:'CAD':true}} <br><br>
+
+
+    <!--Date-->
+   <h1>Date</h1>
+   {{date}} <br><br>
+ {{date | date:'fullDate'}} <br> <br>
+ {{date | date:'mediumDate'}} <br> <br>
+ {{date | date:'shortDate'}} <br> <br>
+ {{date | date:'dd/MM/yy'}} <br> <br>
+
+<!--Time-->
+ <h1>Time</h1>
+ {{date | date:'fullTime'}} <br><br>
+ {{date | date:'mediumTime'}} <br><br>
+ {{date | date:'shortTime'}} <br><br>
+ {{date | date:'hh:mm:ss:ms'}} <br><br>
+
+
+<!--JSON-->
+  <h3>Json</h3>
+ {{emp |json}} <br><br>
+
+<!--percent-->
+ <h3>percent</h3>
+ {{0.5 | percent}} <br>
+ {{10 | percent}} <br><br>
+
+ <!--Slice-->
+ <h3>Slice</h3>
+ {{name | slice:3:7}} <br>
+ {{name | bulk}} <br><br><br><br><br>
+
+
+ 
+  
+
+
+
+
+
+
